@@ -50,6 +50,8 @@ f.fontname = name
 f.fullname = name
 f.weight = "Light"
 f.version = "0.1"
+f.sfntRevision = 0.1          # the head table's revision agrees with the name table's
+f.os2_vendor = "DSCR"         # DrumScore, not Bravura's SMTG
 f.copyright = ("Derived from Bravura, Copyright (c) 2017 Steinberg Media Technologies GmbH, "
                "under the SIL Open Font License 1.1. Outlines thinned and the font subset for "
                "Drum Score Editor and Staves, 2026. 'Bravura' is a Reserved Font Name and this is not it.")
@@ -60,6 +62,10 @@ f.sfnt_names = tuple(n for n in f.sfnt_names if n[1] not in ("Family", "Fullname
 f.appendSFNTName("English (US)", "License", "This Font Software is licensed under the SIL Open Font License, Version 1.1.")
 f.appendSFNTName("English (US)", "License URL", "https://openfontlicense.org")
 f.appendSFNTName("English (US)", "Descriptor", "A lighter cut of Bravura's drum notation subset for Drum Score Editor and Staves.")
+f.appendSFNTName("English (US)", "Designer", "Alan White (lightening and subset); Daniel Spreadbury, Steinberg (Bravura)")
+f.appendSFNTName("English (US)", "Manufacturer", "DrumScore")
+f.appendSFNTName("English (US)", "Vendor URL", "https://drumscore.scot")
+f.appendSFNTName("English (US)", "UniqueID", name + " 0.1; DrumScore; 2026")
 os.makedirs(os.path.join(out, name), exist_ok=True)
 path = os.path.join(out, name, name + ".otf")
 f.generate(path, flags=("opentype",))

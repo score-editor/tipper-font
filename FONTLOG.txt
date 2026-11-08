@@ -1,0 +1,43 @@
+FONTLOG for Tipper
+==================
+
+This file provides detailed information on the Tipper font software. This information should be
+distributed along with the Tipper fonts and any derivative works.
+
+Basic Font Information
+----------------------
+Tipper is a SMuFL music font for drum notation: a lighter cut of Bravura, holding the 92 glyphs
+Drum Score Editor and Staves draw (noteheads, flags, rests, clefs, time-signature digits, tuplet
+numbers, dynamics, articulations, tremolo and buzz strokes, grace notes, repeat dots) plus the four
+tempo-note glyphs Drum Score Editor's New Score window shows. It is NOT a complete SMuFL font: a
+general notation program will find most of the SMuFL set missing.
+
+Every outline is thinned with FontForge's change-weight, by an amount chosen per kind of glyph so
+that the thinnest strokes survive, and the engraving defaults in tipper_metadata.json (beam, stem,
+staff line, barline, tie and slur, tuplet bracket, hairpin) are set lighter than Bravura's.
+
+Tipper is derived from Bravura, Copyright (c) 2017 Steinberg Media Technologies GmbH, designed by
+Daniel Spreadbury, and is released under the SIL Open Font License 1.1 as Bravura is. "Bravura" is
+a Reserved Font Name of Steinberg; "Tipper" is a Reserved Font Name of Alan White.
+
+ChangeLog
+---------
+08 November 2026 (Alan White) Tipper version 0.1
+- First release. 92 SMuFL glyphs + 4 tempo-note glyphs from Bravura 1.21, thinned per kind:
+  solid heads and dots 12, hollow heads 16, italic dynamics 8, accents and marcatos 14, digits 20,
+  flags, rests, clefs and other stroked glyphs 24 (font units, 1000 to the em).
+- Engraving defaults: beam 0.45, stem 0.095, staff line 0.10, leger and thin barline 0.13, thick
+  barline 0.45, tie and slur midpoint 0.18, tuplet bracket 0.12, hairpin 0.13 (staff spaces).
+- Glyph bounding boxes measured from the thinned outlines; notehead stem anchors follow the new
+  edges; every other anchor is Bravura's.
+
+Acknowledgements
+----------------
+N: Alan White
+E: alan@drumscore.scot
+W: https://drumscore.scot
+D: Lightening, subset, metadata and the build scripts (2026)
+
+N: Daniel Spreadbury / Steinberg Media Technologies GmbH
+W: https://www.smufl.org/fonts/
+D: Bravura, the original design, and the SMuFL standard

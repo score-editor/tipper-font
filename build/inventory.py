@@ -1,5 +1,11 @@
+# The glyph inventory: every SMuFL glyph the two cores name or spell as a codepoint.
+#   inventory.py <work dir> <swift source root>...
+# <work dir> holds downloads/glyphnames.json (SMuFL), java-glyphs.txt and swift-glyphs.txt (one
+# SMuFL glyph name per line, grepped from the two cores' sources) and java-codepoints.txt (the
+# Java core's \uE... literals, one hex codepoint per line); glyphs.json is written beside them.
 import json, re, sys, pathlib
 S = pathlib.Path(sys.argv[1])
+swift_roots = sys.argv[2:]
 names = json.load(open(S / "downloads/glyphnames.json"))
 by_name = {n: int(v["codepoint"][2:], 16) for n, v in names.items()}
 by_cp = {cp: n for n, cp in by_name.items()}
@@ -14,7 +20,7 @@ for f, why in [("java-glyphs.txt", "java name"), ("swift-glyphs.txt", "swift nam
 for line in open(S / "java-codepoints.txt"):
     add(int(line.strip(), 16), "java codepoint")
 # Swift and StavesKit codepoints, written \u{E...}
-for root in ["/Users/alanwhite/git/drumscore-core-swift/Sources", "/Users/alanwhite/git/staves-apple/StavesKit/Sources", "/Users/alanwhite/git/staves-apple/Staves"]:
+for root in swift_roots:
     for p in pathlib.Path(root).rglob("*.swift"):
         for m in re.findall(r"\\u\{(E[0-9A-Fa-f]{3})\}|0x(E[0-9A-F]{3})", p.read_text()):
             cp = m[0] or m[1]

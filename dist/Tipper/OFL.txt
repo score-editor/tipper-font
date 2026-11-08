@@ -1,4 +1,7 @@
+Copyright © 2026, Alan White (https://drumscore.scot), with Reserved Font Name "Tipper".
 Copyright © 2017, Steinberg Media Technologies GmbH (http://www.steinberg.net/), with Reserved Font Name "Bravura".
+
+Tipper is a derivative of Bravura: a subset of its glyphs with the outlines thinned and lighter engraving defaults.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
 
