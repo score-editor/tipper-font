@@ -1,0 +1,753 @@
+[
+ {
+  "codepoint": "U+E003",
+  "name": "bracketTop",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E004",
+  "name": "bracketBottom",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E005",
+  "name": "reversedBracketTop",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E006",
+  "name": "reversedBracketBottom",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E043",
+  "name": "repeatDots",
+  "from": [
+   "java name",
+   "metadata",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E050",
+  "name": "gClef",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E062",
+  "name": "fClef",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E069",
+  "name": "unpitchedPercussionClef1",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E080",
+  "name": "timeSig0",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E081",
+  "name": "timeSig1",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E082",
+  "name": "timeSig2",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E083",
+  "name": "timeSig3",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E084",
+  "name": "timeSig4",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E085",
+  "name": "timeSig5",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E086",
+  "name": "timeSig6",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E087",
+  "name": "timeSig7",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E088",
+  "name": "timeSig8",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E089",
+  "name": "timeSig9",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E08A",
+  "name": "timeSigCommon",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E08B",
+  "name": "timeSigCutCommon",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E08D",
+  "name": "timeSigPlusSmall",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E0A2",
+  "name": "noteheadWhole",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E0A3",
+  "name": "noteheadHalf",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E0A4",
+  "name": "noteheadBlack",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E0A9",
+  "name": "noteheadXBlack",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E1D2",
+  "name": "noteWhole",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1D3",
+  "name": "noteHalfUp",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1D4",
+  "name": "noteHalfDown",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1D5",
+  "name": "noteQuarterUp",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1D6",
+  "name": "noteQuarterDown",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1D7",
+  "name": "note8thUp",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1D8",
+  "name": "note8thDown",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1D9",
+  "name": "note16thUp",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1DA",
+  "name": "note16thDown",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1DB",
+  "name": "note32ndUp",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1DC",
+  "name": "note32ndDown",
+  "from": [
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E1E7",
+  "name": "augmentationDot",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E210",
+  "name": "stem",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E220",
+  "name": "tremolo1",
+  "from": [
+   "java name",
+   "metadata",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E221",
+  "name": "tremolo2",
+  "from": [
+   "java name",
+   "metadata",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E222",
+  "name": "tremolo3",
+  "from": [
+   "java name",
+   "metadata",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E22A",
+  "name": "buzzRoll",
+  "from": [
+   "java name",
+   "metadata",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E240",
+  "name": "flag8thUp",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E241",
+  "name": "flag8thDown",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E242",
+  "name": "flag16thUp",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E243",
+  "name": "flag16thDown",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E244",
+  "name": "flag32ndUp",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E245",
+  "name": "flag32ndDown",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E246",
+  "name": "flag64thUp",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E247",
+  "name": "flag64thDown",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4A0",
+  "name": "articAccentAbove",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4A2",
+  "name": "articStaccatoAbove",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4A4",
+  "name": "articTenutoAbove",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4AC",
+  "name": "articMarcatoAbove",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4AD",
+  "name": "articMarcatoBelow",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4AE",
+  "name": "articMarcatoStaccatoAbove",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4B0",
+  "name": "articAccentStaccatoAbove",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4B2",
+  "name": "articTenutoStaccatoAbove",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4C0",
+  "name": "fermataAbove",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4E3",
+  "name": "restWhole",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4E4",
+  "name": "restHalf",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4E5",
+  "name": "restQuarter",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4E6",
+  "name": "rest8th",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4E7",
+  "name": "rest16th",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4E8",
+  "name": "rest32nd",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E4E9",
+  "name": "rest64th",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E520",
+  "name": "dynamicPiano",
+  "from": [
+   "java codepoint",
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E522",
+  "name": "dynamicForte",
+  "from": [
+   "java codepoint",
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E52A",
+  "name": "dynamicPPP",
+  "from": [
+   "java codepoint",
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E52B",
+  "name": "dynamicPP",
+  "from": [
+   "java codepoint",
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E52C",
+  "name": "dynamicMP",
+  "from": [
+   "java codepoint",
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E52D",
+  "name": "dynamicMF",
+  "from": [
+   "java codepoint",
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E52F",
+  "name": "dynamicFF",
+  "from": [
+   "java codepoint",
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E530",
+  "name": "dynamicFFF",
+  "from": [
+   "java codepoint",
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E536",
+  "name": "dynamicSforzando1",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E539",
+  "name": "dynamicSforzato",
+  "from": [
+   "java codepoint",
+   "swift codepoint"
+  ]
+ },
+ {
+  "codepoint": "U+E560",
+  "name": "graceNoteAcciaccaturaStemUp",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E880",
+  "name": "tuplet0",
+  "from": [
+   "java name",
+   "swift codepoint",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E881",
+  "name": "tuplet1",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E882",
+  "name": "tuplet2",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E883",
+  "name": "tuplet3",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E884",
+  "name": "tuplet4",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E885",
+  "name": "tuplet5",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E886",
+  "name": "tuplet6",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E887",
+  "name": "tuplet7",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E888",
+  "name": "tuplet8",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+E889",
+  "name": "tuplet9",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
+  "codepoint": "U+EB8C",
+  "name": "arrowheadOpenDown",
+  "from": [
+   "java name",
+   "metadata",
+   "swift codepoint",
+   "swift name"
+  ]
+ }
+]
