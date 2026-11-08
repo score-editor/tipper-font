@@ -1,4 +1,4 @@
-# venv python sheet.py <out.svg> <label:font.otf> [<label:font.otf> ...]
+# venv python sheet.py <out.svg> <half: 0 heads/flags/rests, 1 dynamics/marks> <label:font.otf> [<label:font.otf> ...]
 import sys
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
