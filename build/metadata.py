@@ -47,7 +47,7 @@ defaults.update({
     "textEnclosureThickness": 0.13, "lyricLineThickness": 0.13, "pedalLineThickness": 0.13,
 })
 meta = {
-    "fontName": name, "fontVersion": 0.1,
+    "fontName": name, "fontVersion": 0.2,
     "engravingDefaults": defaults,
     "glyphBBoxes": boxes,
     "glyphsWithAnchors": anchors,

@@ -1,6 +1,6 @@
 {
   "fontName": "Tipper",
-  "fontVersion": 0.1,
+  "fontVersion": 0.2,
   "engravingDefaults": {
     "arrowShaftThickness": 0.13,
     "barlineSeparation": 0.4,
@@ -531,6 +531,16 @@
         -1.4508
       ]
     },
+    "accidentalSharp": {
+      "bBoxNE": [
+        0.968,
+        1.372
+      ],
+      "bBoxSW": [
+        0.028,
+        -1.364
+      ]
+    },
     "articAccentAbove": {
       "bBoxNE": [
         1.328,
@@ -953,6 +963,24 @@
     }
   },
   "glyphsWithAnchors": {
+    "accidentalSharp": {
+      "cutOutNE": [
+        0.84,
+        2.288
+      ],
+      "cutOutNW": [
+        0.144,
+        1.96
+      ],
+      "cutOutSE": [
+        0.84,
+        0.796
+      ],
+      "cutOutSW": [
+        0.144,
+        0.496
+      ]
+    },
     "dynamicFF": {
       "opticalCenter": [
         1.852,

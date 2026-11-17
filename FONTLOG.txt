@@ -6,7 +6,7 @@ distributed along with the Tipper fonts and any derivative works.
 
 Basic Font Information
 ----------------------
-Tipper is a SMuFL music font for drum notation: a lighter cut of Bravura, holding the 92 glyphs
+Tipper is a SMuFL music font for drum notation: a lighter cut of Bravura, holding the 93 glyphs
 Drum Score Editor and Staves draw (noteheads, flags, rests, clefs, time-signature digits, tuplet
 numbers, dynamics, articulations, tremolo and buzz strokes, grace notes, repeat dots) plus the four
 tempo-note glyphs Drum Score Editor's New Score window shows. It is NOT a complete SMuFL font: a
@@ -22,6 +22,11 @@ a Reserved Font Name of Steinberg; "Tipper" is a Reserved Font Name of Alan Whit
 
 ChangeLog
 ---------
+17 November 2026 (Alan White) Tipper version 0.2
+- Added accidentalSharp (U+E262): a tenor written on a five-line stave opens with a key signature
+  of two sharps. Thinned by 14 with the accents and marcatos; its uprights all but vanish at 24.
+- Every other glyph, box, anchor and engraving default is as in 0.1.
+
 08 November 2026 (Alan White) Tipper version 0.1
 - First release. 92 SMuFL glyphs + 4 tempo-note glyphs from Bravura 1.21, thinned per kind:
   solid heads and dots 12, hollow heads 16, italic dynamics 8, accents and marcatos 14, digits 20,

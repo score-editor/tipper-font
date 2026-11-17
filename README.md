@@ -1,11 +1,12 @@
 # Tipper
 
-A lighter cut of Bravura for drum notation: the 92 SMuFL glyphs that Drum Score Editor and Staves
+A lighter cut of Bravura for drum notation: the 93 SMuFL glyphs that Drum Score Editor and Staves
 draw (plus the four tempo-note glyphs Drum Score Editor's New Score window shows), every outline
 thinned and the engraving defaults the apps read set lighter.
 
 **Scope.** Tipper is a deliberate subset. Noteheads, flags, rests, clefs, time-signature digits,
-tuplet numbers, dynamics, articulations, tremolo and buzz strokes, grace notes and repeat dots are
+tuplet numbers, dynamics, articulations, tremolo and buzz strokes, grace notes, repeat dots and the
+sharp of a key signature are
 there; the rest of the SMuFL set is not. A general notation program such as Dorico or MuseScore will
 show missing glyphs if asked to use it. `build/glyphs.json` lists exactly what it holds.
 
@@ -42,7 +43,7 @@ FontForge's change-weight:
 | solid heads and dots | black notehead, augmentation dot, repeat dots, tremolo strokes, buzz, staccato, tenuto | 12 |
 | hollow heads | whole, half | 16 |
 | italic dynamics | p … fff, sf, sfz | 8 (their hairlines break beyond this) |
-| accents and marcatos | > ^ and their staccato forms, fermata, open arrowhead | 14 (they turn to threads beyond this) |
+| accents and marcatos | > ^ and their staccato forms, fermata, open arrowhead, sharp | 14 (they turn to threads beyond this) |
 | digits | time signatures, tuplet numbers | 20 |
 | everything stroked | flags, rests, clefs, grace note, common time | 24 |
 

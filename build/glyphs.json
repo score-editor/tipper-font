@@ -413,6 +413,14 @@
   ]
  },
  {
+  "codepoint": "U+E262",
+  "name": "accidentalSharp",
+  "from": [
+   "java name",
+   "swift name"
+  ]
+ },
+ {
   "codepoint": "U+E4A0",
   "name": "articAccentAbove",
   "from": [
