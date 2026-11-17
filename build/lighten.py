@@ -26,7 +26,8 @@ HOLLOW = {0xE0A2, 0xE0A3}
 # The italic dynamics are hairline letters already: thinned as far as the rest they break.
 DYNAMICS = set(range(0xE520, 0xE53F))
 # Accents and marcatos are two strokes meeting at a point; thinned as far as a flag they are threads.
-MARKS = {0xE4A0, 0xE4A6, 0xE4AC, 0xE4AD, 0xE4AE, 0xE4B0, 0xE4B2, 0xE4C0, 0xEB8C}
+# The sharp's uprights are hairlines too: at a flag's amount they all but vanish.
+MARKS = {0xE4A0, 0xE4A6, 0xE4AC, 0xE4AD, 0xE4AE, 0xE4B0, 0xE4B2, 0xE4C0, 0xEB8C, 0xE262}
 DIGITS = set(range(0xE080, 0xE08E)) | set(range(0xE880, 0xE88A))
 def group(cp):
     return (solid if cp in SOLID else hollow if cp in HOLLOW else dynamics if cp in DYNAMICS
@@ -49,8 +50,8 @@ f.familyname = name
 f.fontname = name
 f.fullname = name
 f.weight = "Light"
-f.version = "0.1"
-f.sfntRevision = 0.1          # the head table's revision agrees with the name table's
+f.version = "0.2"
+f.sfntRevision = 0.2          # the head table's revision agrees with the name table's
 f.os2_vendor = "DSCR"         # DrumScore, not Bravura's SMTG
 f.copyright = ("Derived from Bravura, Copyright (c) 2017 Steinberg Media Technologies GmbH, "
                "under the SIL Open Font License 1.1. Outlines thinned and the font subset for "
@@ -65,7 +66,7 @@ f.appendSFNTName("English (US)", "Descriptor", "A lighter cut of Bravura's drum 
 f.appendSFNTName("English (US)", "Designer", "Alan White (lightening and subset); Daniel Spreadbury, Steinberg (Bravura)")
 f.appendSFNTName("English (US)", "Manufacturer", "DrumScore")
 f.appendSFNTName("English (US)", "Vendor URL", "https://drumscore.scot")
-f.appendSFNTName("English (US)", "UniqueID", name + " 0.1; DrumScore; 2026")
+f.appendSFNTName("English (US)", "UniqueID", name + " 0.2; DrumScore; 2026")
 os.makedirs(os.path.join(out, name), exist_ok=True)
 path = os.path.join(out, name, name + ".otf")
 f.generate(path, flags=("opentype",))
